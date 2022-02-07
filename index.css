@@ -1,0 +1,72 @@
+
+:root {
+    --primary-color:#EF4444;
+    --secondary-color :#1E3A8A;
+}
+body {
+    color: var(--primary-color);
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.nav-header {
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.nav-links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.nav-item {
+    color: var(--primary-color);
+    font-size: large;
+    text-decoration: none;
+    justify-content: space-around;
+}
+.homepage-container {
+    width:100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homepage-container p {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--secondary-color);
+}
+.homepage-container h1 {
+    font-size: 6rem;
+    margin: 1rem 2rem;
+    
+}
+.homepage-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin: 2rem;
+}
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border: 0;
+}
+.btn-outline {
+    border: 2px solid var(--primary-color);
+    color: var(--secondary-color);
+}
