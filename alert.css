@@ -77,6 +77,7 @@ body {
     color: var(--secondary-color);
 }
 
+
 .main-section {
     display: flex;
     flex-direction: row;
