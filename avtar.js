@@ -1,0 +1,1 @@
+import "./avtar.css"
