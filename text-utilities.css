@@ -152,9 +152,15 @@ body {
     margin-top: 2rem;
 }
 
-.hover-effect:hover {
+/* .hover-effect:hover {
     font-weight: bold;
     padding-left: 2rem;
+} */
+.hover-effect:hover {
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+    padding: 0.3rem 1rem;
+    border-radius: 2rem;
 }
 .link-active {
     font-weight: bold;
