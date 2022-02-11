@@ -25,6 +25,7 @@ p {
 }
 body {
     color: var(--secondary-color);
+    font-family:'Times New Roman', Times, serif
 }
 .nav {
     width: 100%;
@@ -47,7 +48,7 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 2rem;
 }
 .nav-item {
     color: var(--primary-color);
@@ -99,8 +100,6 @@ body {
     padding: 2rem;
 }
 
-
-
 .section-header {
     font-size: 2rem;
 }
@@ -121,6 +120,9 @@ body {
     border: 2px solid var(--secondary-color)
 }
 
+.margin-top {
+    margin-top: 1rem;
+}
 
 .logo {
     min-width: 2rem;
@@ -129,7 +131,7 @@ body {
     color: var(--primary-color);
 }
 .color {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 2rem;
     margin: 0.5rem;
     color: var(--white-clr);
@@ -162,7 +164,19 @@ body {
 .underlined {
     background-color: var(--secondary-pink);
 }
+.next-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.next-link-item{
+    font-size: 1.5rem;
+    margin: 2rem;
 
+}
+.margin-lr {
+    margin: 0rem 0.2rem;
+}
 .hover-effect:hover {
     font-weight: bold;
     border: 2px solid var(--primary-color);
