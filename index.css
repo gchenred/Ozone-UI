@@ -64,6 +64,7 @@ body {
     padding: 0.3rem 1rem;
     border-radius: 2rem;
     font-size: 1rem;
+    cursor: pointer;
 }
 .btn-primary {
     background-color: var(--primary-color);
@@ -85,7 +86,4 @@ body {
     border: 2px solid var(--primary-color);
     padding: 0.3rem 1rem;
     border-radius: 2rem;
-}
-.link-active {
-    font-weight: bold;
 }
